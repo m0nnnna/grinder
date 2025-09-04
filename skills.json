@@ -1,0 +1,10 @@
+{
+    "skills": [
+        ["Heavy Strike", "Damage", 15, 3, 1, 50],
+        ["Heal", "Heal", 20, 4, 1, 50],
+        ["Fireball", "Damage", 10, 2, 2, 100],
+        ["Shield Block", "Shield", 10, 3, 2, 100],
+        ["Power Slash", "Damage", 20, 4, 3, 150],
+        ["Regen Aura", "Heal", 15, 3, 3, 150]
+    ]
+}

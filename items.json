@@ -1,0 +1,16 @@
+{
+    "consumables": {
+        "Common": [
+            ["Health Potion", "Restore 20 HP", 20]
+        ],
+        "Uncommon": [
+            ["Mana Potion", "Restore 10 HP (placeholder)", 10]
+        ],
+        "Rare": [
+            ["Greater Health Potion", "Restore 50 HP", 50]
+        ],
+        "Epic": [
+            ["Elixir", "Restore full HP", 100]
+        ]
+    }
+}

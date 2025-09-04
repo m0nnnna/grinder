@@ -1,0 +1,32 @@
+{
+    "weapons": {
+        "Common": [
+            ["Dagger", "Basic attack", 5, 7],
+            ["Club", "Basic attack", 6, 8]
+        ],
+        "Uncommon": [
+            ["Shortbow", "Double attack (10% chance)", 7, 9]
+        ],
+        "Rare": [
+            ["Flaming Sword", "Burn (extra 5 damage)", 8, 10]
+        ],
+        "Epic": [
+            ["Thunder Axe", "Crit (20% chance x2 damage)", 12, 15]
+        ]
+    },
+    "armor": {
+        "Common": [
+            ["Leather Vest", "Basic defense", 5],
+            ["Cloth Robe", "Basic defense", 4]
+        ],
+        "Uncommon": [
+            ["Chainmail", "Reduce damage by 2", 7]
+        ],
+        "Rare": [
+            ["Plate Armor", "Regen 5 health per kill", 10]
+        ],
+        "Epic": [
+            ["Mythril Cloak", "50% chance to dodge", 12]
+        ]
+    }
+}

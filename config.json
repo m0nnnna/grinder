@@ -1,0 +1,10 @@
+{
+    "rarities": ["Common", "Uncommon", "Rare", "Epic"],
+    "weights": [60, 30, 8, 2],
+    "shop_prices": {
+        "Common": 10,
+        "Uncommon": 25,
+        "Rare": 50,
+        "Epic": 100
+    }
+}

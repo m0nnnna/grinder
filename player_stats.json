@@ -1,0 +1,12 @@
+{
+    "health": 100,
+    "level": 1,
+    "xp": 0,
+    "xp_to_level": 50,
+    "weapon": ["Fists", "Basic attack", 4, 6],
+    "armor": ["Rags", "No effect", 0],
+    "inventory": [],
+    "pity_counter": 0,
+    "epic_count": 0,
+    "gold": 0
+}
