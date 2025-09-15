@@ -1,5 +1,6 @@
 {
     "health": 100,
+    "max_health": 100,
     "level": 1,
     "xp": 0,
     "xp_to_level": 50,
@@ -8,5 +9,9 @@
     "inventory": [],
     "pity_counter": 0,
     "epic_count": 0,
-    "gold": 0
+    "gold": 0,
+    "mp": 50,
+    "max_mp": 50,
+    "stun_duration": 0,
+    "current_zone": "1"
 }

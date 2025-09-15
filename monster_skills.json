@@ -1,0 +1,9 @@
+{
+    "skills": {
+        "1": ["Bite", "Damage", 5, 2, 5, 70, "always"],
+        "2": ["Regen", "Heal", 10, 4, 15, 30, "low_hp"],
+        "3": ["Claw", "Damage", 8, 3, 10, 60, "always"],
+        "4": ["Fire Breath", "Damage", 15, 5, 20, 50, "always"],
+        "5": ["Tail Whip", "Stun", 1, 4, 25, 40, "always"]
+    }
+}

@@ -1,10 +1,9 @@
 {
     "skills": [
-        ["Heavy Strike", "Damage", 15, 3, 1, 50],
-        ["Heal", "Heal", 20, 4, 1, 50],
-        ["Fireball", "Damage", 10, 2, 2, 100],
-        ["Shield Block", "Shield", 10, 3, 2, 100],
-        ["Power Slash", "Damage", 20, 4, 3, 150],
-        ["Regen Aura", "Heal", 15, 3, 3, 150]
+        ["Fireball", "Damage", 20, 3, 1, 50, 10],
+        ["Heal", "Heal", 30, 4, 2, 75, 15],
+        ["Power Strike", "DamageBoost", 5, 5, 3, 100, 20],
+        ["Shield", "Shield", 20, 3, 2, 80, 12],
+        ["Stun Bolt", "Stun", 1, 4, 4, 120, 25]
     ]
 }

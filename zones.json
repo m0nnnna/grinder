@@ -1,0 +1,17 @@
+{
+    "1": {
+        "name": "Forest Clearing",
+        "description": "A beginner-friendly zone with weak goblins. Recommended for levels 1-5.",
+        "enemies": [1]
+    },
+    "2": {
+        "name": "Mountain Path",
+        "description": "Rugged terrain with trolls. Recommended for levels 5-10.",
+        "enemies": [1, 2]
+    },
+    "3": {
+        "name": "Dragon's Lair",
+        "description": "Dangerous caves with dragons and tougher foes. Recommended for levels 10+.",
+        "enemies": [2, 3]
+    }
+}
