@@ -1,10 +1,10 @@
 {
-    "kills": 0,
-    "play_time": 0,
+    "kills": 2,
+    "play_time": 0.0016398429870605469,
     "max_level": 1,
-    "total_xp": 0,
-    "total_gold": 0,
-    "total_gold_spent": 0,
+    "total_xp": 20,
+    "total_gold": 33,
+    "total_gold_spent": 10,
     "total_gold_spent_on_skills": 0,
-    "score": 0
+    "score": 3
 }

@@ -61,7 +61,7 @@ while player['health'] > 0:
         enemy_mp = enemy_max_mp
         enemy_cooldowns = {}
     # Display scene
-    display_scene(enemy_name, current_enemy_health, player, stats, combat_log, art, enemy_mp, enemy_max_mp, enemy_cooldowns)
+    display_scene(enemy_name, current_enemy_health, player, stats, combat_log, art, enemy_mp, enemy_max_mp, enemy_cooldowns, current_zone_name)
     action = input(f"\n{Fore.CYAN}Press 1-4 for skills, Enter to attack, q to quit: {Style.RESET_ALL}").strip().lower()
     if action == '':
         current_enemy_health = attack_enemy(enemy_name, current_enemy_health, player['weapon'][2:4], player, combat_log)
