@@ -142,6 +142,11 @@ def post_fight_menu(enemy_name, xp, gold_earned, player, stats, config, gear, it
         player['health'] = min(player['health'] + 5, player['max_health'])
         print(f"{Fore.GREEN}Regen +5 health!{Style.RESET_ALL}")
     check_level_up(player, stats)
+    # Fully restore player HP and MP after each fight
+    player['health'] = player.get('max_health', player['health'])
+    player['mp'] = player.get('max_mp', player.get('mp', 0))
+    player['stun_duration'] = 0
+    print(f"{Fore.GREEN}HP and MP fully restored!{Style.RESET_ALL}")
     # Drop loot
     dropped_gear = drop_loot(player, config, gear)
     if dropped_gear:
@@ -155,7 +160,7 @@ def post_fight_menu(enemy_name, xp, gold_earned, player, stats, config, gear, it
         print(f"{Fore.CYAN}Dropped item: {dropped_item[0]} ({dropped_item[1]}){Style.RESET_ALL}")
         player['inventory'].append(('Common', 'consumable', dropped_item))
         update_score(stats, 'item_drop', 'Common')  # Add 1 point for consumable
-    input(f"{Fore.CYAN}Press Enter to continue...{Style.RESET_ALL}")
+    input(f"{Fore.LIGHTWHITE_EX}Press Enter to continue...{Style.RESET_ALL}")
     while True:
         print("\nPost-Fight Menu:")
         print("1) Equip/Use items")

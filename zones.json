@@ -10,6 +10,11 @@
         "enemies": [1, 2]
     },
     "3": {
+        "name": "Hidden Old Church",
+        "description": "An old hidden away church filled with the undead.",
+        "enemies": [4]
+    },
+    "4": {
         "name": "Dragon's Lair",
         "description": "Dangerous caves with dragons and tougher foes. Recommended for levels 10+.",
         "enemies": [2, 3]

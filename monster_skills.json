@@ -4,6 +4,8 @@
         "2": ["Regen", "Heal", 10, 4, 15, 30, "low_hp"],
         "3": ["Claw", "Damage", 8, 3, 10, 60, "always"],
         "4": ["Fire Breath", "Damage", 15, 5, 20, 50, "always"],
-        "5": ["Tail Whip", "Stun", 1, 4, 25, 40, "always"]
+        "5": ["Tail Whip", "Stun", 1, 4, 25, 40, "always"],
+        "6": ["Infectious Bite", "Damage", 7, 3, 15, 50, "always"],
+        "7": ["Undead Regen", "Heal", 5, 1, 10, 60, "low_hp" ]
     }
 }

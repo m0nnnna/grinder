@@ -14,7 +14,7 @@
             ["Thunder Axe", "Crit (20% chance x2 damage)", 12, 15]
         ]
     },
-    "armor": {
+    "armors": {
         "Common": [
             ["Leather Vest", "Basic defense", 5],
             ["Cloth Robe", "Basic defense", 4]
